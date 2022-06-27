@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: pink;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 10px 10px ;
+}
+.main_two{
+  float: left;
+  width: 58%;
+  height: 300px;
+  padding: 0px;
+  margin: 10px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.two_pic{
+  object-fit: cover;
+  object-position: 0 -150px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
